@@ -37,7 +37,9 @@ if __name__ == '__main__':
     if len(sys.argv) < 4:
         print("Usage: python hackstack.py create <template> <project-name>")
         print("\nAvailable templates:")
-        print("  - fullstack-app")
+        print("  - fullstack-app   (React + Node.js + PostgreSQL)")
+        print("  - mern-stack      (React + Node.js + MongoDB)")
+        print("  - python-stack    (React + Python Flask + PostgreSQL)")
         sys.exit(1)
 
     command= sys.argv[1]

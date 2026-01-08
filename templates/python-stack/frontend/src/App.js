@@ -17,7 +17,7 @@ function App() {
       padding: '20px',
       fontFamily: 'system-ui'
     }}>
-      <h1 style={{ color: '#667eea' }}>HackStack App</h1>
+      <h1 style={{ color: '#3776ab' }}>Python Stack App</h1>
       <div style={{
         background: '#f0f0f0',
         padding: '20px',
@@ -28,7 +28,7 @@ function App() {
       </div>
       <div style={{ marginTop: '30px', color: '#666' }}>
         <p>Frontend: React running on port 3000</p>
-        <p>Backend: Node.js running on port 8000</p>
+        <p>Backend: Python + Flask running on port 8000</p>
         <p>Database: PostgreSQL connected</p>
       </div>
     </div>

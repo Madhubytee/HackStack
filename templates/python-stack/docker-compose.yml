@@ -19,9 +19,8 @@ services:
       - "8000:8000"
     volumes:
       - ./backend:/app
-      - /app/node_modules
     environment:
-      - DATABASE_URL=postgresql://postgres:postgres@database:5432/hackstack
+      - FLASK_ENV=development
     depends_on:
       - database
 
